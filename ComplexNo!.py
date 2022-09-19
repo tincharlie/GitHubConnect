@@ -42,6 +42,13 @@ class Complex(object):
         return temp
 
     def __str__(self):
+        """
+
+        Desc: Return string
+
+        Created By : Wasim
+        :return:
+        """
         if self.imginary == 0:
             result = "%.2f+0.00i" % (self.real)
         elif self.real == 0:
